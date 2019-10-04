@@ -1,0 +1,9 @@
+{
+    "scripts": {
+      "test": "testcafe chrome:headless tests/* --skip-js-errors -S -s 'artifacts/screenshots' -r xunit:/tmp/test-results/res.xml"
+    },
+    "devDependencies": {
+        "testcafe": "*",
+        "testcafe-reporter-xunit": "*"
+    }
+}
